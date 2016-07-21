@@ -16,5 +16,10 @@ namespace firstApp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string addToUsers = "insert into users (name, email) values ('rhuan2', 'rhuansantosdev@gmail.com');";
+        }
     }
 }

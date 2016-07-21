@@ -1,1 +1,10 @@
 c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug\firstApp.exe.config
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.csprojResolveAssemblyReference.cache
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.Form1.resources
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.Properties.Resources.resources
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.csproj.GenerateResource.Cache
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug\firstApp.exe
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug\firstApp.pdb
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug\MySql.Data.dll
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.exe
+c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.pdb
