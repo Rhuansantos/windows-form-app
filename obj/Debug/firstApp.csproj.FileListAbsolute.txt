@@ -8,3 +8,4 @@ c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug
 c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\bin\Debug\MySql.Data.dll
 c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.exe
 c:\users\rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.pdb
+C:\Users\Rhuan\documents\visual studio 2015\Projects\firstApp\firstApp\obj\Debug\firstApp.Form2.resources
