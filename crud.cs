@@ -12,7 +12,7 @@ namespace firstApp
 
         public void create()
         {
-
+           //string insert = "insert into db (petName, petType, petImage) VALUES ()";
         }
 
         public void delete()

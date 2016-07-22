@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient; // using mysql
 
 namespace firstApp
 {
     public partial class Form1 : Form
     {
+
+        string cn = @"server=127.0.0.1;userid=root;password=root;database=windows-form; port=3306";
+
         public Form1()
         {
             InitializeComponent();
@@ -19,10 +23,10 @@ namespace firstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string addToUsers = "insert into users (name, email) values ('rhuan2', 'rhuansantosdev@gmail.com');";
+
+
+
             this.Hide();
-
-
             var windows2 = new Form2();
             windows2.Show();
         }
@@ -38,6 +42,16 @@ namespace firstApp
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }

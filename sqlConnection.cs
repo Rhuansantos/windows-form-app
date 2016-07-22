@@ -11,49 +11,28 @@ namespace firstApp
     {
 
 
+        string cn = @"server=127.0.0.1;userid=root;password=root;database=windows-form; port=3306";
+        //public void mysqlConnection()
+        //{
+            
 
 
-        public static void mysqlConnect()
-        {
+            //using (MySqlConnection con = new MySqlConnection(cn))
+            //{
+            //    con.Open();
 
-            string cs = @"server=127.0.0.1;userid=root;password=root;database=windows-form; port=3306";
-
-            MySqlConnection conn = null;
-
-            try
-            {
-                conn = new MySqlConnection(cs);
-                conn.Open();
-
-                string stm = "SELECT VERSION()";
-                MySqlCommand cmd = new MySqlCommand(stm, conn);
-                string version = Convert.ToString(cmd.ExecuteScalar());
-                Console.WriteLine("MySQL version : {0}", version);
-
-            }
-            catch (MySqlException ex)
-            {
-                Console.WriteLine("Error: {0}", ex.ToString());
-
-            }
-            finally
-            {
-
-                if (conn != null)
-                {
-                    conn.Close();
-                }
-
-            }
-
-            Console.WriteLine("Done");
+            //    if (con.State == System.Data.ConnectionState.Open)
+            //    {
+            //        label1.Text = "Database Connect";
+            //    }
+            //    else
+            //    {
+            //        label1.Text = "Connection failed";
+            //    }
+            //}
 
 
-
-        }
-
-
-
+        //}
 
     }
 }
