@@ -26,7 +26,7 @@ namespace firstApp
         {
 
             // TODO: This line of code loads data into the '_windows_formDataSet.users' table. You can move, or remove it, as needed.
-          // this.usersTableAdapter.Fill(this._windows_formDataSet.users);
+          //this.usersTableAdapter.Fill(this._windows_formDataSet.users);
 
         }
 
@@ -45,20 +45,7 @@ namespace firstApp
         private void button2_Click(object sender, EventArgs e)
         {
 
-            using (MySqlConnection con = new MySqlConnection(cn))
-            {
-                con.Open();
 
-                //SqlCommand cmd = new SqlCommand("INSERT INTO Data (Name, PhoneNo, Address) VALUES (@Name, @PhoneNo, @Address)");
-                //cmd.CommandType = CommandType.Text;
-                //cmd.Connection = connection;
-                //cmd.Parameters.AddWithValue("@Name", txtName.Text);
-                //cmd.Parameters.AddWithValue("@PhoneNo", txtPhone.Text);
-                //cmd.Parameters.AddWithValue("@Address", txtAddress.Text);
-                //connection.Open();
-                //cmd.ExecuteNonQuery();
-
-            }
 
 
         }
